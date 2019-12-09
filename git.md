@@ -23,6 +23,21 @@ user.email=edutak.ssafy@gmail.com
 user.name=edutak
 ```
 
+### gitignore
+
+프로젝트를 진행할 때, `git`으로 관리하지 않을 파일 혹은 폴더 들을 설정할 수 있다.
+
+```
+*.xlsx              # 확장자가 xlsx인 파일
+a.txt               # a.txt 파일
+.ipynb_checkpoints/ # .ipynb_chackpoints 폴더
+
+```
+
+프로젝트 시작시 어떠한 내용을 담아야할지 모르겠다면, [gitignore](https://gitignore.io)에서 검색한다.
+
+예) `python` , `r` , `jupyter notebook`
+
 ## 로컬 저장소에서 활용하기
 
 ### 1. git 저장소 설정
