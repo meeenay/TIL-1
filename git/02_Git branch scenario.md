@@ -269,8 +269,9 @@
     ```bash
     $ git add .
     $ git commit
-```
-   
+    ```
+
+
    * vim 편집기 화면이 나타납니다.
    
    * 자동으로 작성된 커밋 메시지를 확인하고, `esc`를 누른 후 `:wq`를 입력하여 저장 및 종료를 합니다.
@@ -278,7 +279,7 @@
       * `q` : quit
       
    * 커밋이  확인 해봅시다.
-   
+
 9. 그래프 확인하기
 
     ```bash
@@ -295,8 +296,7 @@
    c1e3b55 멀캠 - index.html
    
    
-    ```
-
+   ```
 
 10. branch 삭제
 
@@ -304,6 +304,5 @@
     $ git branch -d hotfix/test
     Deleted branch hotfix/test (was bff1eda).
     
-    ```
-    
-    
+	```
+
